@@ -1,6 +1,7 @@
 import styles from './PaginaPadrao.module.scss';
 import stylesTema from 'styles/Tema.module.scss'
 import { Outlet } from 'react-router-dom';
+import Footer from "../Footer";
 
 export default function PaginaPadrao() {
   return (
